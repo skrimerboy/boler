@@ -1,27 +1,33 @@
-console.log('you are at '+window.location);
+prompt ('сколько денег у кевина?')
+"totalCash"
+prompt ('сколько часов у кевина?')
+"watchesCount"
+let watchesSum = 1
+undefined
+typeof watchesSum
+"number"
+prompt ( 'сколько у Кевина сережек?')
+"earringsCount"
+let earringsSum = 1
+undefined
+prompt ('сколько стоят одни часы?')
+"earringsSum"
+prompt ('сколько стоят одни сережки?')
+"earringsSum"
+prompt ('сколько стоят одни часы?')
+"watchesSum"
+prompt ('сколько стоят сережки и часы?')
+"watchesSum"
+prompt ('сколько стоят сережки и часы?')
+"watchesSum+earringsSum"
+prompt ('сколько кевин может купить часов?')
+"watchesCount"
+prompt ('сколько кевин может купить сережек?')
+"earringsCount"
 
-const Page = document.querySelector('.page');
-console.log(Page);
+alert ('  сколько часов у кевина?' )
 
-console.log(Page.style);
-Page.style.backgroundColor = 'ghostwhite';
-
-const Body = document.querySelector('body');
-console.log(Body);
-
-console.log(Body.style);
-Body.style.backgroundColor = '#696969';
-
-const image = document.querySelector('img');
-
-console.log(image.hasAttribute('src'));
-
-console.log(image.getAttribute('src'));
-
-image.setAttribute('src', 'img/dj.jpg')
-
-const short = document.querySelector('.short-bio ');
-
-console.log(short.className);
-
-short.className+=' animated';
+typeof totalCash
+"number"
+typeof totalCash
+"number"
